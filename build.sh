@@ -36,9 +36,9 @@ echo "==> Kernel compilation completed"
 
 echo "==> Making Flashable zip"
 
-cp  $KDIR/arch/$ARCH/boot/zImage $SRKDIR/tools/
+cp  $KDIR/arch/$ARCH/boot/zImage $SRKDIR/
 
-cp $KDIR/arch/arm/boot/dt.img $SRKDIR/tools/
+cp $KDIR/arch/arm/boot/dt.img $SRKDIR/
 
 cd $SRKDIR
 
